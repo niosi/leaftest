@@ -11,6 +11,8 @@ func init() {
 	// 这里我们注册了一个 JSON 消息 Hello
 	Processor.Register(&Hello{})
 	Processor.Register(&LeafTest{})
+	Processor.Register(&Login{})
+	Processor.Register(&Resp{})
 }
 
 // 一个结构体定义了一个 JSON 消息的格式
@@ -22,6 +24,18 @@ type Hello struct {
 //测试通信
 type LeafTest struct {
 	Name string
-	Sex int
-	Age int
+	Sex  int
+	Age  int
+}
+
+//LoginInfo
+type Login struct {
+	LoginName string
+	LoginPwd  string
+}
+
+//返回消息
+type Resp struct {
+	Code int
+	Msg interface{}
 }

@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="92fef9c4-c2ea-49e9-9143-dcc94cc72f33" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/pkg/windows_amd64/github.com/gorilla/websocket.a" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/windows_amd64/github.com/gorilla/websocket.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/windows_amd64/github.com/name5566/leaf.a" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/windows_amd64/github.com/name5566/leaf.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/windows_amd64/github.com/name5566/leaf/chanrpc.a" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/windows_amd64/github.com/name5566/leaf/chanrpc.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/windows_amd64/github.com/name5566/leaf/cluster.a" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/windows_amd64/github.com/name5566/leaf/cluster.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/windows_amd64/github.com/name5566/leaf/conf.a" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/windows_amd64/github.com/name5566/leaf/conf.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/windows_amd64/github.com/name5566/leaf/console.a" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/windows_amd64/github.com/name5566/leaf/console.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/windows_amd64/github.com/name5566/leaf/gate.a" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/windows_amd64/github.com/name5566/leaf/gate.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/windows_amd64/github.com/name5566/leaf/go.a" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/windows_amd64/github.com/name5566/leaf/go.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/windows_amd64/github.com/name5566/leaf/log.a" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/windows_amd64/github.com/name5566/leaf/log.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/windows_amd64/github.com/name5566/leaf/module.a" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/windows_amd64/github.com/name5566/leaf/module.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/windows_amd64/github.com/name5566/leaf/network.a" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/windows_amd64/github.com/name5566/leaf/network.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/windows_amd64/github.com/name5566/leaf/network/json.a" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/windows_amd64/github.com/name5566/leaf/network/json.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/windows_amd64/github.com/name5566/leaf/timer.a" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/windows_amd64/github.com/name5566/leaf/timer.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/windows_amd64/server/base.a" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/windows_amd64/server/base.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/windows_amd64/server/conf.a" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/windows_amd64/server/conf.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/windows_amd64/server/game.a" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/windows_amd64/server/game.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/windows_amd64/server/game/internal.a" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/windows_amd64/server/game/internal.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/windows_amd64/server/gate.a" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/windows_amd64/server/gate.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/windows_amd64/server/gate/internal.a" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/windows_amd64/server/gate/internal.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/windows_amd64/server/login.a" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/windows_amd64/server/login.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/windows_amd64/server/login/internal.a" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/windows_amd64/server/login/internal.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/windows_amd64/server/msg.a" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/windows_amd64/server/msg.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/windows_amd64/server/testmodule.a" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/windows_amd64/server/testmodule.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/windows_amd64/server/testmodule/internal.a" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/windows_amd64/server/testmodule/internal.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/client/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/client/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/name5566/leaf" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/name5566/leaf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/name5566/leaf/conf/conf.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/name5566/leaf/conf/conf.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/name5566/leaf/gate/gate.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/name5566/leaf/gate/gate.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/name5566/leaf/network/tcp_msg.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/name5566/leaf/network/tcp_msg.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/name5566/leaf/network/tcp_server.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/name5566/leaf/network/tcp_server.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/server/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="233964125">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.22" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="go" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Go" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/client/main.go">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/server/main.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="350">
+              <caret line="14" column="39" lean-forward="true" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
+              <folding>
+                <element signature="e#14#173#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="GOROOT" path="D:\Program Files\go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="801" />
+    <option name="y" value="3" />
+    <option name="width" value="1400" />
+    <option name="height" value="1000" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="leafserver" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leafserver" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="leafserver" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leafserver" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="leafserver" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leafserver" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="configurable.Global.GOPATH.is.expanded" value="true" />
+    <property name="configurable.Project.GOPATH.is.expanded" value="true" />
+    <property name="go.gopath.indexing.explicitly.defined" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/client" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.goide.configuration.GoLibrariesConfigurableProvider" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" visible="true" weight="0.32995737" />
+      <window_info id="Structure" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="TODO" />
+      <window_info anchor="right" id="Database" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/client/main.go">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/server/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="14" column="39" lean-forward="true" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
+          <folding>
+            <element signature="e#14#173#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

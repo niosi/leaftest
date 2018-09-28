@@ -1,24 +1,30 @@
 package main
 
 import (
-	"encoding/binary"
-	"net"
-	"io"
-	"fmt"
-	"log"
-	"encoding/json"
-	"strings"
 	"bytes"
+	"encoding/binary"
+	"encoding/json"
+	"fmt"
+	"io"
+	"log"
+	"net"
 )
 
 type RespInfo struct {
 	LeafTest *LeafTest
+	Resp     *RespModel
 }
 
 type LeafTest struct {
 	Name string
-	Sex int
-	Age int
+	Sex  int
+	Age  int
+}
+
+//返回消息
+type RespModel struct {
+	Code int
+	Msg  interface{}
 }
 
 func main() {
@@ -36,10 +42,9 @@ func main() {
 	//}`)
 
 	data := []byte(`{
-		"LeafTest": {
-			"Name": "leaf",
-			"Sex":1,
-			"Age":18
+		"Login": {
+			"LoginName": "testUser",
+			"LoginPwd":"testPwd"
 		}
 	}`)
 
@@ -53,16 +58,18 @@ func main() {
 	// 发送消息
 	conn.Write(m)
 
-	buf := make([]byte,1024) //定义一个切片的长度是1024。
+	buf := make([]byte, 1024) //定义一个切片的长度是1024。
 
 	conn.Read(buf) //接收到的内容大小。
 
-	if err != nil && err != io.EOF {  //io.EOF在网络编程中表示对端把链接关闭了。
+	if err != nil && err != io.EOF { //io.EOF在网络编程中表示对端把链接关闭了。
 		log.Fatal(err)
 	}
-	subStr := strings.Split(string(buf),".")[1]
+
+	fmt.Println(string(buf))
+
 	resp := &RespInfo{}
-	json.Unmarshal(bytes.TrimRight([]byte(subStr),"\x00"),&resp)
-	fmt.Printf("%#v",resp) //将接受的内容都读取出来。
-	conn.Close()  //断开TCP链接。
+	json.Unmarshal(bytes.Trim(buf, "\x00"), &resp)
+	fmt.Printf("%#v", resp.Resp) //将接受的内容都读取出来。
+	conn.Close()            //断开TCP链接。
 }
