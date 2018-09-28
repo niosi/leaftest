@@ -1,0 +1,81 @@
+<head>   
+    <meta charset="utf-8" />   
+    <title></title>
+</head>
+
+<body>   
+    发送数据:
+    <input type='text' id='name' value="Leaf测试">   
+    <input type="submit" onclick="login()" />
+</body>
+<script>
+    var wsUri = "ws://121.43.183.225:3653/";  
+    var json;  
+
+    function login() {    
+        var Data = {      
+			LoginName: "testUser",
+			LoginPwd: "testPwd"            
+        };    
+        var json = {      
+            Login: Data
+        }    
+        var goServerJson = JSON.stringify(json);    
+        wsUri = wsUri;    
+        console.log(wsUri);    
+        doSend(goServerJson);  
+    }  
+    var output;  
+    var websocket1;  
+
+    function init() {    
+        output = document.getElementById("output");    
+        testWebSocket();  
+    }  
+
+    function testWebSocket() {    
+        console.log(wsUri)     
+		websocket1 = new WebSocket(wsUri);    
+        websocket1.onopen = function(evt) {      
+            onOpen(evt)    
+        };    
+        websocket1.onclose = function(evt) {      
+            onClose(evt)    
+        };    
+        websocket1.onmessage = function(evt) {      
+            onMessage(evt)    
+        };    
+        websocket1.onerror = function(evt) {      
+            onError(evt)    
+        };  
+    }  
+
+    function onOpen(evt) {    
+        console.log("CONNECTED");  
+    }  
+
+    function onClose(evt) {    
+        console.log("DISCONNECTED");  
+    }  
+
+    function onMessage(evt) {    
+		var fileReader = new FileReader(); // 用filereader来转blob为arraybuffer
+		fileReader.onload = function() {
+		var arrayBuffer = this.result; // 得到arraybuffer
+		var decoder = new TextDecoder('utf-8') // 上面回复中给的encoding.js、encoding-indexes.js
+		var json = JSON.parse(decoder.decode(new DataView(arrayBuffer)))
+			console.log('response text msg: ' + JSON.stringify(json))
+		};
+		fileReader.readAsArrayBuffer(evt.data); // 此处读取blob
+    }  
+
+    function onError(evt) {    
+        console.log(evt.data);  
+    }  
+
+    function doSend(message) {    
+        console.log(message);    
+        websocket1.send(message);  
+    }  
+    window.addEventListener("load", init, false);
+</script>
