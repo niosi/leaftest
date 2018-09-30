@@ -11,7 +11,7 @@ var gLocker sync.Mutex;    //全局锁
 var gCondition *sync.Cond; //全局条件变量
 
 var origin = "http://127.0.0.1:3563/"
-var url = "ws://127.0.0.1:3653/"
+var url = "ws://121.43.183.225:3653/"
 
 //错误处理函数
 func checkErr(err error, extra string) bool {
@@ -64,7 +64,7 @@ func main() {
     gCondition = sync.NewCond(&gLocker);
     _, err = conn.Write([]byte(`{
 		"Login": {
-			"LoginName": "testUser",
+			"LoginName": "testUser1",
 			"LoginPwd":"testPwd"
 		}
 	}`));

@@ -24,7 +24,7 @@ func handleTest(args []interface{}) {
 	// 消息的发送者
 	a := args[1].(gate.Agent)
 	// 输出收到的消息的内容
-	fmt.Printf("User:%s,Pwd:%s\n")
+	fmt.Printf("User:%s,Pwd:%s\n", m.LoginName, m.LoginPwd)
 	if m.LoginName == "testUser" && m.LoginPwd == "testPwd" {
 		// 给发送者回应一个消息
 		a.WriteMsg(&msg.Resp{Code: 0, Msg: "succ"})

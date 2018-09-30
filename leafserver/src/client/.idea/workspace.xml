@@ -2,43 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="13a7d3dc-bbf3-488e-974c-adba93f6244f" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/../../pkg/windows_amd64/github.com/gorilla/websocket.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../pkg/windows_amd64/github.com/name5566/leaf.a" beforeDir="false" afterPath="$PROJECT_DIR$/../../pkg/windows_amd64/github.com/name5566/leaf.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../pkg/windows_amd64/github.com/name5566/leaf/chanrpc.a" beforeDir="false" afterPath="$PROJECT_DIR$/../../pkg/windows_amd64/github.com/name5566/leaf/chanrpc.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../pkg/windows_amd64/github.com/name5566/leaf/cluster.a" beforeDir="false" afterPath="$PROJECT_DIR$/../../pkg/windows_amd64/github.com/name5566/leaf/cluster.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../pkg/windows_amd64/github.com/name5566/leaf/conf.a" beforeDir="false" afterPath="$PROJECT_DIR$/../../pkg/windows_amd64/github.com/name5566/leaf/conf.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../pkg/windows_amd64/github.com/name5566/leaf/console.a" beforeDir="false" afterPath="$PROJECT_DIR$/../../pkg/windows_amd64/github.com/name5566/leaf/console.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../pkg/windows_amd64/github.com/name5566/leaf/gate.a" beforeDir="false" afterPath="$PROJECT_DIR$/../../pkg/windows_amd64/github.com/name5566/leaf/gate.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../pkg/windows_amd64/github.com/name5566/leaf/go.a" beforeDir="false" afterPath="$PROJECT_DIR$/../../pkg/windows_amd64/github.com/name5566/leaf/go.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../pkg/windows_amd64/github.com/name5566/leaf/log.a" beforeDir="false" afterPath="$PROJECT_DIR$/../../pkg/windows_amd64/github.com/name5566/leaf/log.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../pkg/windows_amd64/github.com/name5566/leaf/module.a" beforeDir="false" afterPath="$PROJECT_DIR$/../../pkg/windows_amd64/github.com/name5566/leaf/module.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../server/login/internal/chanrpc.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../pkg/windows_amd64/github.com/name5566/leaf/network.a" beforeDir="false" afterPath="$PROJECT_DIR$/../../pkg/windows_amd64/github.com/name5566/leaf/network.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../pkg/windows_amd64/github.com/name5566/leaf/network/json.a" beforeDir="false" afterPath="$PROJECT_DIR$/../../pkg/windows_amd64/github.com/name5566/leaf/network/json.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../pkg/windows_amd64/github.com/name5566/leaf/timer.a" beforeDir="false" afterPath="$PROJECT_DIR$/../../pkg/windows_amd64/github.com/name5566/leaf/timer.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../pkg/windows_amd64/server/base.a" beforeDir="false" afterPath="$PROJECT_DIR$/../../pkg/windows_amd64/server/base.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../pkg/windows_amd64/server/conf.a" beforeDir="false" afterPath="$PROJECT_DIR$/../../pkg/windows_amd64/server/conf.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../pkg/windows_amd64/server/game.a" beforeDir="false" afterPath="$PROJECT_DIR$/../../pkg/windows_amd64/server/game.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../pkg/windows_amd64/server/game/internal.a" beforeDir="false" afterPath="$PROJECT_DIR$/../../pkg/windows_amd64/server/game/internal.a" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../pkg/windows_amd64/server/gate.a" beforeDir="false" afterPath="$PROJECT_DIR$/../../pkg/windows_amd64/server/gate.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../pkg/windows_amd64/server/gate/internal.a" beforeDir="false" afterPath="$PROJECT_DIR$/../../pkg/windows_amd64/server/gate/internal.a" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../pkg/windows_amd64/server/login.a" beforeDir="false" afterPath="$PROJECT_DIR$/../../pkg/windows_amd64/server/login.a" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../pkg/windows_amd64/server/login/internal.a" beforeDir="false" afterPath="$PROJECT_DIR$/../../pkg/windows_amd64/server/login/internal.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../pkg/windows_amd64/server/msg.a" beforeDir="false" afterPath="$PROJECT_DIR$/../../pkg/windows_amd64/server/msg.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../pkg/windows_amd64/server/testmodule.a" beforeDir="false" afterPath="$PROJECT_DIR$/../../pkg/windows_amd64/server/testmodule.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../pkg/windows_amd64/server/testmodule/internal.a" beforeDir="false" afterPath="$PROJECT_DIR$/../../pkg/windows_amd64/server/testmodule/internal.a" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../github.com/gorilla/websocket" beforeDir="false" afterPath="$PROJECT_DIR$/../github.com/gorilla/websocket" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../github.com/name5566/leaf" beforeDir="false" afterPath="$PROJECT_DIR$/../github.com/name5566/leaf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../server/.idea/go.imports.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../server/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../server/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../server/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../server/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../server/.idea/server.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../server/.idea/server.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/websockettest.go" beforeDir="false" afterPath="$PROJECT_DIR$/websockettest.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../server/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../server/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../server/gate/router.go" beforeDir="false" afterPath="$PROJECT_DIR$/../server/gate/router.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../server/login/internal/handler.go" beforeDir="false" afterPath="$PROJECT_DIR$/../server/login/internal/handler.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../server/msg/msg.go" beforeDir="false" afterPath="$PROJECT_DIR$/../server/msg/msg.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../server/testmodule/internal/module.go" beforeDir="false" afterPath="$PROJECT_DIR$/../server/testmodule/internal/module.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/login/internal/module.go" beforeDir="false" afterPath="$PROJECT_DIR$/../server/login/internal/module.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -50,66 +24,76 @@
     <session id="970269477">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
-          <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.1" value="2" />
+          <entry key="project.closed" value="6" />
+          <entry key="project.open.time.0" value="2" />
+          <entry key="project.open.time.1" value="3" />
           <entry key="project.open.time.10" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.open.time.14" value="1" />
+          <entry key="project.open.time.29" value="1" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="go" value="19" />
+          <entry key="go" value="23" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Go" value="19" />
+          <entry key="Go" value="23" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="go" value="651" />
+          <entry key="go" value="742" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Go" value="651" />
+          <entry key="Go" value="742" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.go.postfix.template.usages.trigger">
+        <counts>
+          <entry key=".append" value="1" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="30" column="48" selection-start-line="30" selection-start-column="44" selection-end-line="30" selection-end-column="48" />
-              <folding>
-                <element signature="e#14#98#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/websockettest.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="57" column="13" selection-start-line="57" selection-start-column="13" selection-end-line="57" selection-end-column="13" />
-              <folding>
-                <element signature="e#14#87#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="446">
+              <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../github.com/name5566/leaf/network/ws_client.go">
+        <entry file="file://D:/Program Files/go/src/encoding/binary/binary.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="560">
-              <caret line="72" column="24" selection-start-line="72" selection-start-column="24" selection-end-line="72" selection-end-column="24" />
+            <state relative-caret-position="191">
+              <caret line="103" column="17" selection-start-line="103" selection-start-column="17" selection-end-line="103" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testrun.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="275">
+              <caret line="14" column="27" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/websockettest.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1095">
+              <caret line="66" column="35" selection-start-line="66" selection-start-column="35" selection-end-line="66" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -141,9 +125,9 @@
       <list>
         <option value="$PROJECT_DIR$/run_test.go" />
         <option value="$PROJECT_DIR$/testrun.go" />
-        <option value="$PROJECT_DIR$/main.go" />
         <option value="$PROJECT_DIR$/../github.com/name5566/leaf/network/ws_client.go" />
         <option value="$PROJECT_DIR$/websockettest.go" />
+        <option value="$PROJECT_DIR$/main.go" />
       </list>
     </option>
   </component>
@@ -167,6 +151,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -180,35 +165,12 @@
             </path>
             <path>
               <item name="client" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="GOPATH &lt;client&gt;" type="20ee2d1f:SyntheticLibraryElementNode" />
-            </path>
-            <path>
-              <item name="client" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="GOPATH &lt;client&gt;" type="20ee2d1f:SyntheticLibraryElementNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="client" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="GOPATH &lt;client&gt;" type="20ee2d1f:SyntheticLibraryElementNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="github.com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="client" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="GOPATH &lt;client&gt;" type="20ee2d1f:SyntheticLibraryElementNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="github.com" type="462c0819:PsiDirectoryNode" />
-              <item name="golang" type="462c0819:PsiDirectoryNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -234,7 +196,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build websockettest.go">
+  <component name="RunManager" selected="Go Build.go build main.go">
     <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="client" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -268,23 +230,22 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build websockettest.go" />
         <item itemvalue="Go Build.go build main.go" />
+        <item itemvalue="Go Build.go build websockettest.go" />
         <item itemvalue="Go Build.go build testrun.go" />
       </list>
     </recent_temporary>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.1924307" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.14392324" />
       <window_info id="Structure" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="0" weight="0.32962137" />
       <window_info anchor="bottom" id="Terminal" order="1" />
       <window_info anchor="bottom" id="Database Changes" order="2" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="3" sideWeight="0.49946696" visible="true" weight="0.26169264" />
+      <window_info active="true" anchor="bottom" id="Run" order="3" sideWeight="0.49946696" visible="true" weight="0.22160356" />
       <window_info anchor="bottom" id="Event Log" order="4" sideWeight="0.50053304" side_tool="true" weight="0.32963374" />
       <window_info anchor="bottom" id="Version Control" order="5" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -328,13 +289,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/Program Files/go/src/encoding/binary/binary.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="103" column="17" selection-start-line="103" selection-start-column="17" selection-end-line="103" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://D:/Program Files/go/src/net/net.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="499">
@@ -342,37 +296,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../github.com/golang/net/websocket/websocket_test.go">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../github.com/golang/net/websocket/websocket.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1125" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../github.com/golang/net/websocket/client.go">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testrun.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="14" column="27" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="27" />
-          <folding>
-            <element signature="e#14#45#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="30" column="48" selection-start-line="30" selection-start-column="44" selection-end-line="30" selection-end-column="48" />
-          <folding>
-            <element signature="e#14#98#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../github.com/golang/net/websocket/websocket_test.go" />
+    <entry file="file://$PROJECT_DIR$/../github.com/golang/net/websocket/websocket.go" />
+    <entry file="file://$PROJECT_DIR$/../github.com/golang/net/websocket/client.go" />
     <entry file="file://$PROJECT_DIR$/../golang.org/x/net/websocket/client.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="211">
@@ -387,13 +313,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/testrun.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="14" column="27" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/websockettest.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="57" column="13" selection-start-line="57" selection-start-column="13" selection-end-line="57" selection-end-column="13" />
-          <folding>
-            <element signature="e#14#87#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="1095">
+          <caret line="66" column="35" selection-start-line="66" selection-start-column="35" selection-end-line="66" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../github.com/name5566/leaf/network/tcp_conn.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1321">
+          <caret line="107" column="42" selection-start-line="107" selection-start-column="42" selection-end-line="107" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Program Files/go/src/encoding/binary/binary.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="103" column="17" selection-start-line="103" selection-start-column="17" selection-end-line="103" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="446">
+          <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
         </state>
       </provider>
     </entry>

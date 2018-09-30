@@ -41,20 +41,17 @@ func main() {
 	//	}
 	//}`)
 
-	data := []byte(`{
-		"Login": {
-			"LoginName": "testUser",
-			"LoginPwd":"testPwd"
-		}
-	}`)
+	data := []byte(`{"Login": {"LoginName": "testUser","LoginPwd":"testPwd"}}`)
 
+	fmt.Println(len(data))
 	// len + data
 	m := make([]byte, 2+len(data))
-
 	// 默认使用大端序
 	binary.BigEndian.PutUint16(m, uint16(len(data)))
-
+	fmt.Println(m)
 	copy(m[2:], data)
+
+	fmt.Println(m)
 	// 发送消息
 	conn.Write(m)
 

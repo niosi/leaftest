@@ -1,6 +1,7 @@
 package internal
 
 import (
+	"fmt"
 	"github.com/name5566/leaf/module"
 	"server/base"
 )
@@ -16,8 +17,9 @@ type Module struct {
 
 func (m *Module) OnInit() {
 	m.Skeleton = skeleton
+	fmt.Println("OnInit")
 }
 
 func (m *Module) OnDestroy() {
-
+	fmt.Println("OnDestory")
 }
